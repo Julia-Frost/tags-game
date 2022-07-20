@@ -1,0 +1,39 @@
+body {
+  background-color: antiquewhite;
+}
+
+.field {
+  position: relative;
+  border: 5px solid #000;
+  border-radius: 15px;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+
+  background-color: greenyellow;
+}
+
+.cell {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  width: 25%;
+  height: 25%;
+
+  border: 3px solid tomato;
+  border-radius: 50%;
+  background-color: white;
+  color: coral;
+
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+
+  transition: all 500ms;
+}
