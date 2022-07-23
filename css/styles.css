@@ -10,7 +10,7 @@ body {
   height: 600px;
   margin: auto;
 
-  background-color: greenyellow;
+  background-color: rgb(212, 246, 161);
 }
 
 .cell {
@@ -26,10 +26,10 @@ body {
   width: 25%;
   height: 25%;
 
-  border: 3px solid tomato;
+  border: 3px solid rgb(199, 162, 250);
   border-radius: 50%;
-  background-color: white;
-  color: coral;
+  background-color: rgb(176, 209, 236);
+  color: rgb(255, 255, 255);
 
   padding: 10px;
   font-size: 50px;

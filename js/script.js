@@ -46,8 +46,13 @@ for (let cell of cells) {
   };
 }
 
+// Моя практика/////////////////
+const colors = ["red", "yellow", "green", "blue"];
 let cellsColor = [...document.querySelectorAll(".cell")];
-// const colors = ["red", "yellow", "green", "blue"];
-// const randomColor = getRandomNumber(0, colors.length - 1);
-// circle.style.background = `${colors[randomColor]}`;
-// return Math.round(Math.random() * (max - min) + min);
+
+console.log(colors);
+
+cellsColor.forEach((cell, colors) => {
+  const randomColor = colors[Math.round(Math.random() * colors.length)];
+  cell.style.background = `${randomColor}`;
+});
